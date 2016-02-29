@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-<header>
+<header id="header">
 	<!--<div class="vc">
 		<h1>Design. Development. Dedication.</h1>
 		<img src="<?php bloginfo( 'template_url' ); ?>/img/sep_head.png" alt="">

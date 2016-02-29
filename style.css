@@ -60,6 +60,16 @@ html, body{
 	height: 44px;
 	padding: 10px;
 }
+
+.addbg{
+	background: #121212 !important;
+	transition: all 0.5s ease 0s;
+}
+
+.nobg{
+	transition: all 0.5s ease 0s;
+}
+
 /* Page */
 header{
 	height: 100%;

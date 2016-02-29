@@ -1,9 +1,8 @@
 $(window).scroll(function() {
-	var fullheight = $('header').height()
+	var fullheight = $('#header').height()
     if ( $(window).scrollTop() >= fullheight ) {
-        $('#mainNav').css('background', '#121212');
+        $('#mainNav').addClass('addbg').removeClass('nobg');
     } else {
-        $('#mainNav').attr('style', '');
-
+        $('#mainNav').removeClass('addbg').addClass('nobg');
     }
 });
