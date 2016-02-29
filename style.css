@@ -1,0 +1,50 @@
+/* 
+Theme name: WETHREE
+Version: 1.0
+Author: Ezitis (Marks Bogdanovs)
+Author URI: http://blackcrown.company
+Tags:
+Description:
+License:
+License URI:
+General comments:
+*/
+
+
+html, body{
+	height: 100%;
+}
+
+/* FONTS */
+@font-face {
+    font-family: Didot;
+    src: url(fonts/Didot-Italic.ttf);
+}
+
+/* NAV */
+
+.navbar{
+	height: 137px;
+}
+
+header{
+	height: 100%;
+	background-image: url(img/head.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+	display: table;
+}
+
+.vc{
+	position: relative;
+}
+
+.vc > h1{
+	color: white;
+	font-family: Didot !important;
+}
+
+.vc > img{
+	margin: auto;
+}
+
