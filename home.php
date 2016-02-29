@@ -1,10 +1,9 @@
 <?php get_header(); ?>
 <header>
-	<div class="vc">
+	<!--<div class="vc">
 		<h1>Design. Development. Dedication.</h1>
 		<img src="<?php bloginfo( 'template_url' ); ?>/img/sep_head.png" alt="">
-	</div>
-	
+	</div>-->
 </header>
 <div id="about_us">
 	<h4>all you need to know</h4>

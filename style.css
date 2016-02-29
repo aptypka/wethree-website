@@ -13,6 +13,7 @@ General comments:
 
 html, body{
 	height: 100%;
+	margin: 0;
 }
 
 /* FONTS */
@@ -24,9 +25,42 @@ html, body{
 /* NAV */
 
 .navbar{
-	height: 137px;
+	height: 67px;
+	background: transparent !important;
+	border-bottom: none !important;
 }
 
+.navbar-right{
+	padding: 15px 15px;
+}
+
+.menu-item > a{
+	color: white !important;
+	padding: 6px !important;
+	margin-right: 50px;
+}
+
+@media (min-width: 720px) {
+	.menu-item > a:hover{
+	color: #2099da !important;
+	border: 1px dashed #2099da;
+	padding: 5px 5px!important;
+	}
+}
+
+
+.icon-bar{
+	background: #2099da !important;
+}
+
+.navbar-inverse .navbar-toggle,.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover{
+	background: transparent !important;
+	border: 1px dashed #2099da !important;
+	border-radius: 100%;
+	height: 44px;
+	padding: 10px;
+}
+/* Page */
 header{
 	height: 100%;
 	background-image: url(img/head.jpg);
