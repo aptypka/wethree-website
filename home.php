@@ -6,33 +6,35 @@
 	</div>-->
 </header>
 <div id="about_us">
-	<h4>all you need to know</h4>
-	<h3>About Us</h3>
-	<p>WE3 is a full service web development company. We have the ability to work with clients and projects of all sizes from small startups to multinationals. Within our team we have dedicated developers and designers with over 10 years of development experience between them along with our project manager who has been in the industry for over 5 years making them old enough to know yet fresh enough to keep your websites up to date with all of the latest trends. We pride ourselves in being small enough to care for each customer on an individual basis yet we have the capability to get the job done within a suitable timeframe as required.</p>
-	<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-		<h3>DESIGN</h3>
-		<p>Logo Design</p>
-		<p>Responsive Page Designs</p>
-		<p>Business Cards</p>
-		<p>Posters</p>
-		<p>Page Wireframes</p>
-		<a href="#" class="ab_us_cn_btn">CONTACT NOW</a>
-	</div>
-	<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-		<h3>DEVELOPMENT</h3>
-		<p>Technical Specification</p>
-		<p>Front End Programming</p>
-		<p>Back End Programming</p>
-		<p>Web Tests</p>
-		<p>Project Launch</p>
-		<a href="#" class="ab_us_cn_btn">CONTACT NOW</a>
-	</div>
-	<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-		<h3>DEDICATION</h3>
-		<p>Hosting</p>
-		<p>Maintenance</p>
-		<p>Support</p>
-		<a href="#" class="ab_us_cn_btn">CONTACT NOW</a>
+	<div class="container">
+		<h4>all you need to know</h4>
+		<h3>About Us</h3>
+		<p>WE3 is a full service web development company. We have the ability to work with clients and projects of all sizes from small startups to multinationals. Within our team we have dedicated developers and designers with over 10 years of development experience between them along with our project manager who has been in the industry for over 5 years making them old enough to know yet fresh enough to keep your websites up to date with all of the latest trends. We pride ourselves in being small enough to care for each customer on an individual basis yet we have the capability to get the job done within a suitable timeframe as required.</p>
+		<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+			<h3>DESIGN</h3>
+			<p>Logo Design</p>
+			<p>Responsive Page Designs</p>
+			<p>Business Cards</p>
+			<p>Posters</p>
+			<p>Page Wireframes</p>
+			<a href="#" class="ab_us_cn_btn">CONTACT NOW</a>
+		</div>
+		<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+			<h3>DEVELOPMENT</h3>
+			<p>Technical Specification</p>
+			<p>Front End Programming</p>
+			<p>Back End Programming</p>
+			<p>Web Tests</p>
+			<p>Project Launch</p>
+			<a href="#" class="ab_us_cn_btn">CONTACT NOW</a>
+		</div>
+		<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+			<h3>DEDICATION</h3>
+			<p>Hosting</p>
+			<p>Maintenance</p>
+			<p>Support</p>
+			<a href="#" class="ab_us_cn_btn">CONTACT NOW</a>
+		</div>
 	</div>
 </div>
 <div id="portfolio" class="col-xs-12">
