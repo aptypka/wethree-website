@@ -40,6 +40,31 @@
 <div id="portfolio" class="col-xs-12">
 	<h4>recent work</h4>
 	<h3>portfolio</h3>
+	<?php
+
+                    $args = array ( 
+                        'post_type' => 'portfolio',
+                        'showposts' => 10 );
+                    query_posts( $args );
+
+                    if ( have_posts() ):
+                        while ( have_posts() ) :
+                            the_post(); ?>
+                                <?php the_post_thumbnail('full', array('class'=>'img img-responsive')); ?>
+                                <?php the_title(); ?>
+								<?php the_content(''); ?>
+								<?php echo get_post_meta($post->ID, 'project_link', true); ?>
+								<?php echo get_post_meta($post->ID, 'molink', true); ?>
+								<?php echo get_post_meta($post->ID, 'talink', true); ?>
+								<?php echo get_post_meta($post->ID, 'perlink', true); ?>
+								<?php echo get_post_meta($post->ID, 'subtitle', true); ?>
+                       <?php endwhile;
+                    else:
+                    endif;
+
+                    wp_reset_query();
+
+                ?>
 </div>
 <div id="get_touch" class="col-xs-12">
 	<h3>Get in touch</h3>
